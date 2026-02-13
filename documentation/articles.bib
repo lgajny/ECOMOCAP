@@ -1,0 +1,108 @@
+
+@article{vafadar_assessment_2022,
+	title = {Assessment of a novel deep learning-based marker-less motion capture system for gait study},
+	volume = {94},
+	issn = {0966-6362},
+	url = {https://www.sciencedirect.com/science/article/pii/S0966636222000789},
+	doi = {10.1016/j.gaitpost.2022.03.008},
+	abstract = {Background
+Marker-less systems based on digital video cameras and deep learning for gait analysis could have a deep impact in clinical routine. A recently developed system has shown promising results in terms of joint center position but has not been yet evaluated in terms of gait outcomes.
+Research question
+How does this novel marker-less system compare to a marker-based reference system in terms of clinically relevant gait parameters?
+Methods
+The deep learning method behind the developed marker-less system was trained on a dedicated dataset consisting of forty-one asymptomatic and pathological subjects each performing ten walking trials. The system could estimate the three-dimensional position of seventeen joint centers or keypoints (e.g., neck, shoulders, hip, knee, and ankles). We evaluated the marker-less system against a marker-based system in terms of differences in joint position (Euclidean distance), detection of gait events (e.g., heel strike and toe-off), spatiotemporal parameters (e.g., step length, time), kinematic parameters (e.g., hip and knee extension-flexion), and inter-trial reliability for kinematic parameters.
+Results
+The marker-less system was able to estimate the three-dimensional position of joint centers with a mean difference of 13.1 mm (SD = 10.2 mm). 99\% of the estimated gait events were estimated within 10 ms of the corresponding reference values. Estimated spatiotemporal parameters showed zero bias. The mean and standard deviation of the differences of the estimated kinematic parameters varied by parameter (for example, the mean and standard deviation for knee extension flexion angle were −3.0° and 2.7°). Inter-trial reliability of the measured parameters was similar to that of the marker-based references.
+Significance
+The developed marker-less system can measure the spatiotemporal parameters within the range of the minimum detectable changes obtained using the marker-based reference system. Moreover, except for hip extension flexion, the system showed promising results in terms of several kinematic parameters.},
+	language = {en},
+	urldate = {2023-02-03},
+	journal = {Gait \& Posture},
+	author = {Vafadar, Saman and Skalli, Wafa and Bonnet-Lebrun, Aurore and Assi, Ayman and Gajny, Laurent},
+	month = may,
+	year = {2022},
+	keywords = {Convolutional neural network, Deep learning, Gait analysis, Human pose estimation, Marker-less},
+	pages = {138--143},
+}
+
+@article{vafadar_novel_2021,
+	title = {A novel dataset and deep learning-based approach for marker-less motion capture during gait},
+	volume = {86},
+	issn = {0966-6362},
+	url = {https://www.sciencedirect.com/science/article/pii/S0966636221000874},
+	doi = {10.1016/j.gaitpost.2021.03.003},
+	abstract = {Background
+The deep learning-based human pose estimation methods, which can estimate joint centers position, have achieved promising results on the publicly available human pose datasets (e.g., Human3.6 M). However, these datasets may be less efficient for gait study, particularly for clinical applications, because of the limited number of subjects, their homogeneity (all asymptomatic adults), and the errors introduced by marker placement on subjects’ regular clothing.
+Research question
+How a new human pose dataset, adapted for gait study, could contribute to the advancement and evaluation of marker-less motion capture systems?
+Methods
+A marker-less system, based on deep learning-based pose estimation methods, was proposed. A new dataset (ENSAM dataset) was collected. Twenty-two asymptomatic adults, one adult with scoliosis, one adult with spondylolisthesis, and seven children with bone disease performed ten walking trials, while being recorded both by the proposed marker-less system and a reference system – combining a marker-based motion capture system and a medical imaging system (EOS). The dataset was split into training and test sets. The pose estimation method, already trained on the Human3.6 M dataset, was evaluated on the ENSAM test set, then reevaluated after further training on the ENSAM training set. The joints coordinates were evaluated, using Bland-Altman bias and 95 \% confidence interval, and joint position error (the Euclidean distance between the estimated joint centers and the corresponding reference values).
+Results
+The Bland-Altman 95 \% confidence intervals were substantially improved after finetuning the pose estimation method on the ENSAM training set (e.g., from 106.9 mm to 17.4 mm for the hip joint). With the new dataset and approach, the mean joint position error varied from 6.2 mm for ankles to 21.1 mm for shoulders.
+Significance
+The proposed marker-less system achieved promising results in terms of joint position errors. Future studies are necessary to assess the system in terms of gait parameters.},
+	language = {en},
+	urldate = {2022-09-28},
+	journal = {Gait \& Posture},
+	author = {Vafadar, Saman and Skalli, Wafa and Bonnet-Lebrun, Aurore and Khalifé, Marc and Renaudin, Mathis and Hamza, Amine and Gajny, Laurent},
+	month = may,
+	year = {2021},
+	keywords = {Convolutional neural network, Deep learning, Gait analysis, Human pose estimation, Marker-less, Motion capture},
+	pages = {70--76},
+}
+
+@article{jiang_effect_2022,
+	title = {Effect of {Face} {Blurring} on {Human} {Pose} {Estimation}: {Ensuring} {Subject} {Privacy} for {Medical} and {Occupational} {Health} {Applications}},
+	volume = {22},
+	copyright = {http://creativecommons.org/licenses/by/3.0/},
+	issn = {1424-8220},
+	shorttitle = {Effect of {Face} {Blurring} on {Human} {Pose} {Estimation}},
+	url = {https://www.mdpi.com/1424-8220/22/23/9376},
+	doi = {10.3390/s22239376},
+	abstract = {The face blurring of images plays a key role in protecting privacy. However, in computer vision, especially for the human pose estimation task, machine-learning models are currently trained, validated, and tested on original datasets without face blurring. Additionally, the accuracy of human pose estimation is of great importance for kinematic analysis. This analysis is relevant in areas such as occupational safety and clinical gait analysis where privacy is crucial. Therefore, in this study, we explore the impact of face blurring on human pose estimation and the subsequent kinematic analysis. Firstly, we blurred the subjects’ heads in the image dataset. Then we trained our neural networks using the face-blurred and the original unblurred dataset. Subsequently, the performances of the different models, in terms of landmark localization and joint angles, were estimated on blurred and unblurred testing data. Finally, we examined the statistical significance of the effect of face blurring on the kinematic analysis along with the strength of the effect. Our results reveal that the strength of the effect of face blurring was low and within acceptable limits ({\textless}1°). We have thus shown that for human pose estimation, face blurring guarantees subject privacy while not degrading the prediction performance of a deep learning model.},
+	language = {en},
+	number = {23},
+	urldate = {2026-02-13},
+	journal = {Sensors},
+	author = {Jiang, Jindong and Skalli, Wafa and Siadat, Ali and Gajny, Laurent},
+	month = jan,
+	year = {2022},
+	note = {Number: 23
+Publisher: Multidisciplinary Digital Publishing Institute},
+	keywords = {deep learning, face blurring, human pose estimation, kinematic analysis},
+	pages = {9376},
+}
+
+@article{jiang_societe_2024,
+	title = {Société de {Biomécanique} young investigator award 2023: {Estimation} of intersegmental load at {L5}-{S1} during lifting/lowering tasks using force plate free markerless motion capture},
+	volume = {177},
+	issn = {0021-9290},
+	shorttitle = {Société de {Biomécanique} young investigator award 2023},
+	url = {https://www.sciencedirect.com/science/article/pii/S0021929024005001},
+	doi = {10.1016/j.jbiomech.2024.112422},
+	abstract = {Accurate estimation of joint load during a lifting/lowering task could provide a better understanding of the pathogenesis and development of musculoskeletal disorders. In particular, the values of the net force and moment at the L5-S1 joint could be an important criterion to identify the unsafe lifting/lowering tasks. In this study, the joint load at L5-S1 was estimated from the motion kinematics acquired using a multi-view markerless motion capture system without force plate. The 3D human pose estimation was first obtained on each frame using deep learning. The kinematic analysis was then performed to calculate the velocity and acceleration information of each segment. Then, the net force and moment at the L5-S1 joint were calculated using inverse dynamics with a top-down approach. This estimate was compared to a reference with a bottom-up approach. It was computed using a marker-based motion capture system combined with force plates and using personalized body segment inertial parameters derived from a 3D model of the human body shape constructed for each subject using biplanar radiographs. The average differences of the estimates for force and moment among all subjects were 14.0 ± 6.9 N and 9.0 ± 2.3 Nm, respectively. Meanwhile, the mean peak value differences of the estimates were 10.8 ± 8.9 N and 11.9 ± 9.5 Nm, respectively. This study then proposed the most rigorous comparison of mechanical loading on the lumbar spine using computer vision. Further work is needed to perform such an estimation under realistic industrial conditions.},
+	urldate = {2026-02-13},
+	journal = {Journal of Biomechanics},
+	author = {Jiang, Jindong and Skalli, Wafa and Siadat, Ali and Gajny, Laurent},
+	month = dec,
+	year = {2024},
+	keywords = {Deep learning, Ergonomics, Human pose estimation, Inverse dynamic, Markerless},
+	pages = {112422},
+}
+
+@inproceedings{jiang_towards_2024,
+	address = {Cham},
+	title = {Towards {Biomechanical} {Analysis} in {Workplace} {Ergonomics} {Using} {Marker}-{Less} {Motion} {Capture}: {3D} {Human} {Pose} {Estimation} for {Lifting}/{Lowering} {Tasks}},
+	isbn = {978-3-031-55315-8},
+	shorttitle = {Towards {Biomechanical} {Analysis} in {Workplace} {Ergonomics} {Using} {Marker}-{Less} {Motion} {Capture}},
+	doi = {10.1007/978-3-031-55315-8_20},
+	abstract = {Computer vision-based human pose estimation has a high potential for applications in the prevention of musculoskeletal disorders among workers. However, there is a lack of accurate datasets on the motion of workers that can be utilized for human pose estimation in the industrial environment. In this work, we collected a 3D annotated multi-view high-accuracy image dataset for human pose estimation while lifting/lowering a cardboard box, with all the participants’ faces blurred to protect their privacy. Furthermore, a previously validated deep learning model was trained on 6 participants and tested on 6 additional participants. Additionally, the effect of the size of cardboard box used for lifting task in the test set was subsequently examined. The average MPJPE (Mean Per Joint Position Error) of the neural network for human pose estimation was 11.97 ± 2.10 mm while the larger cardboard box yielded an increase of MPJPE to 22.56 ± 12.02 mm. Our findings suggest that the joint estimation could be highly accurate when environment is similar between training and testing. Increasing training dataset by various environments and scenarios would be useful to increase robustness of the model.},
+	language = {en},
+	booktitle = {Computer {Methods} in {Biomechanics} and {Biomedical} {Engineering} {II}},
+	publisher = {Springer Nature Switzerland},
+	author = {Jiang, Jindong and Skalli, Wafa and Siadat, Ali and Gajny, Laurent},
+	editor = {Skalli, Wafa and Laporte, Sébastien and Benoit, Aurélie},
+	year = {2024},
+	keywords = {deep learning, Ergonomics, Human Pose dataset, human pose estimation, Stereo vision},
+	pages = {179--186},
+}
